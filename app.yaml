@@ -5,7 +5,7 @@ env_variables:
   MONGO_CONNECTION: "mongodb+srv://familyitzhakov:JTCEVojOAWqRu3SN@nightscout-cluster.oxh4avh.mongodb.net/nightscout?retryWrites=true&w=majority"
   API_SECRET: "Ido18072010!"
   DISPLAY_UNITS: "mg/dl"
-  ENABLE: "careportal basal iob cob sage cage bwp rawbg"
+  ENABLE: "careportal basal iob cob sage cage bwp rawbg status"
 
 automatic_scaling:
   target_cpu_utilization: 0.65
